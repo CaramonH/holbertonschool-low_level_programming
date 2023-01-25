@@ -1,10 +1,12 @@
-#include <stdio.h>
 /** 
- * main - entry point
- * return: Always 0
+ * main - prints a sentence using the puts command
+ * Return: main returns 0
  */
+#include <stdio.h>
+#include <string.h>
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	char Mystr[] = "\"Programming is like building a multilingual puzzle";
+	puts(Mystr);
 	return (0);
 }
