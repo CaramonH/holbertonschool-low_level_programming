@@ -1,5 +1,5 @@
 /**
-*main - prints the size of various types 
+*main - prints the size of various types
 *Return: main always 0
 */
 #include <stdio.h>
