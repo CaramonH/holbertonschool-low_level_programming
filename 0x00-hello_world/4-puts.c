@@ -1,7 +1,7 @@
-/** 
- * main - prints a sentence using the puts command
- * Return: main returns 0
- */
+/**
+* main - prints a sentence using the puts command
+* Return: main returns 0
+*/
 #include <stdio.h>
 #include <string.h>
 int main(void)
