@@ -1,11 +1,11 @@
 /**
-*main - prints a sentence using the puts command
+*main - prints a sentence using the printf command
 *Return: main returns 0
 */
 #include <stdio.h>
 #include <string.h>
 int main(void)
 {
-printf ("with proper grammar, but the outcome is a piece of art,\n");
+printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
 }
