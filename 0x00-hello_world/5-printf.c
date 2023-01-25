@@ -4,9 +4,8 @@
 */
 #include <stdio.h>
 #include <string.h>
-int main(void)
 {
-char name[] = "\"with proper grammar, but the outcome is a  piece of art,";
+printf ("with proper grammar, but the outcome is a  piece of art,");
 printf(name);
 return (0);
 }
