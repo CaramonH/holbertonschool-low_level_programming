@@ -1,19 +1,17 @@
-#include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - jbghjdchdfsfjggj
+ * Return: return 0
  */
-int name(void)
+#include"main.h"
+int main(void)
 {
-	char *sh = "_putchar";
-
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
-	}
-	_putchar('\n');
+int pp[9] = { '_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\n' };
+int i = 0;
+while (i < 9)
+{
+	_putchar(pp[i]);
+	i++;
+}
 
 	return (0);
 }
