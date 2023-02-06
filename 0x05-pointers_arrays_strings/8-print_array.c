@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * prinit_array - unction that prints n elements of an array of integers
+ * print_array - unction that prints n elements of an array of integers
  *
  * @a: pointer to the first int
  * @n: pointer to the second int
