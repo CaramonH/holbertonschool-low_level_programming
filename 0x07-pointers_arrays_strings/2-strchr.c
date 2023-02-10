@@ -4,6 +4,7 @@
  * _strchr - locate character in string
  * @s: source string
  * @c: character to find
+ *
  * Return: the string from charcter found 
  */
 
