@@ -2,25 +2,25 @@
 
 /**
  * _strpbrk - Searches a string for any of a set of bytes
- * @s:string
- * @accept:string
- * Return:char
+ * @s: string to search
+ * @accept: bytes accepted
+ *
+ * Return: Return pointer to first occurance of byte
  */
 
 char *_strpbrk(char *s, char *accept)
 {
-	int i;
+	int i, n;
 
-	while (*s)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (i = 0; accept[i]; i++)
+		for (n = 0; accept[n] != '\0'; n++)
 		{
-			if (*s == accpet[i])
+			if (s[i] == accept[n])
 			{
-				return (s);
+			return (s + i);
 			}
 		}
-		s++;
 	}
-	return ('\0');
+return (0);
 }
