@@ -10,37 +10,22 @@
   *
   * Return: Always zero
   */
+
 int main(int argc, char *argv[])
 {
-	int i;
-	unsigned int k, sum = 0;
-	char *e;
-
-	if (argc > 1)
+int i, d, sum = 0;
+	for (i = 1; i < argc; i++)
 	{
-		for (i = 1; i < argc; i++)
+		for (d = 0; argv[i][d]; d++)
 		{
-			e = argv[i];
-
-			for (k = 0; k < strlen(e); k++)
+			if (argv[i][d] < '0' || argv[i][d] > '9')
 			{
-				if (e[k] < 48 || e[k] > 57)
-				{
-					printf("Error\n");
-					return (1);
-				}
+				printf("Error\n");
+				return (1);
 			}
-
-			sum += atoi(e);
-			e++;
 		}
-
-		printf("%d\n", sum);
+		sum += atoi(argv[i]);
 	}
-	else
-	{
-		printf("0\n");
-	}
-
+	printf("%d\n", sum);
 	return (0);
 }
