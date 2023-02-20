@@ -37,7 +37,7 @@ char *str_concat(char *s1, char *s2)
 	while (n < m)
 	{
 		if (n <= i)
-			s[n] = s1[j];
+			s[n] = s1[n];
 
 		if (n >= i)
 		{
