@@ -8,7 +8,7 @@
  *
  * Return: nothing
  */
-int **aloc_grid(int width, int height)
+int **alloc_grid(int width, int height)
 {
 	int i, j, n, m;
 	int **a;
