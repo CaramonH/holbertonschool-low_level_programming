@@ -1,13 +1,14 @@
 #include "main.h"
-/**
- * string_nconcat - concatenates twp strings using pointers
- * @s1: string 1
- * @s2: string 2
- * @n: max length of string 2 that can be moved
- *
- * Return: pointer
- */
+#include <stdlib.h>
 
+/**
+ * string_nconcat - Concatenates two strings
+ * @s1: The first string
+ * @s2: The second string
+ * @n: The maximum number of bytes of s2 to concatenate to s1
+ *
+ * Return: a pointer to the concatenated string in memory
+ */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *concat;
@@ -25,7 +26,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	concat = malloc(sizeof(char) * (len + 1));
 
 	if (concat == NULL)
-		(return (NULL);
+		return (NULL);
 
 	len = 0;
 
