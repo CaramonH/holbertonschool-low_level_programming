@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-	struct dog my_dog;
+	struct dog dog_t;
 
-	my_dog.name = "Poppy";
-	my_dog.age = 3.5;
-	my_dog.owner = "Bob";
-	printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog.name, my_dog.age);
+	dog_t.name = "Poppy";
+	dog_t.age = 3.5;
+	dog_t.owner = "Bob";
+	printf("My name is %s, and I am %.1f :) - Woof!\n", dog_t.name, dog_t.age);
 	return (0);
 }
