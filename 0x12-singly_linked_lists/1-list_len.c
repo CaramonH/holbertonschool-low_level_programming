@@ -5,7 +5,7 @@
  * @h: linked list to find length of
  * Return: number of elements in the list
  */
-size_t list_len(const list_t *h);
+size_t list_len(const list_t *h)
 {
 	int num = 0;
 	const list_t *temp = h;
