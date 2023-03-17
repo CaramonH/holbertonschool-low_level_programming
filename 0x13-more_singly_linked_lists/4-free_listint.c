@@ -4,11 +4,11 @@
  * free_listint - a function that frees a listint_t list
  * @head: inout list
  */
-void free_listint(listint_t *head);
+void free_listint(listint_t *head)
 {
 	listint_t *temp;
 
-	while (head);
+	while (head)
 	{
 		temp = head;
 		head = head->next;
