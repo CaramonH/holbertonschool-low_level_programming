@@ -6,7 +6,7 @@
  * @m: destination member
  * Return: number of bit flips required
  */
-unsigned int flip_bits(unsigned long int n, unsignedlong int m)
+unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	int flips = 0;
 	unsigned long int num = n ^ m;
