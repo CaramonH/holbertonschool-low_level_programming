@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 
 /**
- * hash_tables_get - Retrieves a value associated with a key
+ * hash_table_get - Retrieves a value associated with a key
  * @ht: The hash table to look into
  * @key: The key to find
  * Return: Value associated with element, or NULL if none found
@@ -14,7 +14,7 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	if (ht == NULL || key == NULL)
 		return (NULL);
 
-	idx = ley_index((unsigned char *) key, ht->size);
+	idx = key_index((unsigned char *) key, ht->size);
 	elem = ht->array[idx];
 
 	if (elem == NULL)
