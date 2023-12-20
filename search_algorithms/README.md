@@ -3,8 +3,8 @@
 ## Resources
 Read or watch:
 
-- [Search algorithm](link-to-resource)
-- [Space complexity (1)](link-to-resource)
+- [Search algorithm](https://en.wikipedia.org/wiki/Search_algorithm)
+- [Space complexity (1)](https://www.geeksforgeeks.org/g-fact-86/)
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
